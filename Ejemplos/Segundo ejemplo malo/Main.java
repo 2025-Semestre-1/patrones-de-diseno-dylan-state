@@ -8,7 +8,7 @@ public class Main {
         p.trabajar();
         p.dormir();
 
-        //Ejemplo con estado triste
+        //Ejemplo con estado ansioso
         System.out.println("\nEstado: Ansioso");
         p.setEstado("Ansioso");
         p.comer();
