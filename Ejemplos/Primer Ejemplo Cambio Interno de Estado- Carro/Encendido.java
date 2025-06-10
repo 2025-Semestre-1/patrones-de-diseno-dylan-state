@@ -1,7 +1,7 @@
 //Clase que implementa el comportamiento cuando está encendido
 public class Encendido implements Estado
 {
-    // Atributo S para almacenar el objeto del contexto
+    // Atributo para almacenar el objeto del contexto
     private Carro carro;
 
     public Encendido(Carro carro)

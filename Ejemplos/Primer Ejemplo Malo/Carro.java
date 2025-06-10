@@ -1,6 +1,6 @@
 public class Carro {
     private boolean estado; //True para encendido, false para apagado
-
+    
     public Carro(){
         this.estado = false; //El valor es apagado al principio
     }

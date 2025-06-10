@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Persona p = new Persona();
+        Persona p = new Persona(new Feliz());
 
         System.out.println("Estado: Feliz");
         p.comer();

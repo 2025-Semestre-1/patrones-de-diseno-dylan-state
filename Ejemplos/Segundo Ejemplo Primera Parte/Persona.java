@@ -2,9 +2,9 @@
 public class Persona {
     private Accion estado;
 
-    public Persona() {
+    public Persona(Accion estado) {
         // Estado inicial
-        this.estado = new Feliz();
+        this.estado = estado;
     }
 
     //Cambia a uno de los estados que utilicen la interfaz Accion
